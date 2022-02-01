@@ -25,7 +25,7 @@ namespace DeciliterVsCupConverterLibrary
             return deciliter.Dl;
         }
 
-        public static implicit operator Deciliter(Cup cup)
+        public double ConvertToDeciliter(Cup cup)
         {
             double conversionResult = cup / 2.4;
 
