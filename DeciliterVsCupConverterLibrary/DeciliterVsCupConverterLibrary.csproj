@@ -4,6 +4,14 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+	  <Version>1.0.0.23</Version>
+	  <Authors>Zeynab Zuwa</Authors>
+	  <Description>My nuget converts from deciliter to cup and from cup to deciliter.</Description>
+	  <PackageProjectUrl>
+		  https://github.com/ZeynabZuwa/DeciliterVsCupConverterLibrary
+	  </PackageProjectUrl>
+	  <RepositoryUrl>https://github.com/ZeynabZuwa/DeciliterVsCupConverterLibrary</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
