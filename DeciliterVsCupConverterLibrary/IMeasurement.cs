@@ -1,6 +1,6 @@
 ﻿namespace DeciliterVsCupConverterLibrary
 {
-    public interface IMeasurment
+    public interface IMeasurement
     {
     }
 }

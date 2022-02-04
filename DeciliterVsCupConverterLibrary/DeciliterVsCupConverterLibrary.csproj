@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
-	  <Version>1.0.0.26</Version>
+	  <Version>1.0.0.27</Version>
 	  <Authors>Zeynab Zuwa</Authors>
 	  <Description>My nuget converts from deciliter to cup and from cup to deciliter.</Description>
 	  <PackageProjectUrl>

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DeciliterVsCupConverterLibrary
 {
-    public struct Cup:IMeasurment
+    public struct Cup:IMeasurement
     {
         public double cup;
 

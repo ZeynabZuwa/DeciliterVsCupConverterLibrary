@@ -8,14 +8,14 @@ namespace DeciliterVsCupConverterLibrary
 {
     public class Factory
     {
-        public IMeasurment GetMeasurment(string mesasrumentName, double amount=0)
+        public IMeasurement GetMeasurement(string measurementName, double amount=0)
         {
-            switch (mesasrumentName)
+            switch (measurementName)
             {
                 case "Deciliter":
-                    return new Deciliter();
+                    return new Deciliter(amount);
                 case "Cup":
-                    return new Cup();
+                    return new Cup(amount);
                 default:
                     throw new ArgumentException();
             }
