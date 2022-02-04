@@ -25,7 +25,7 @@ namespace DeciliterVsCupConverterLibrary
             return cup.cup;
         }
 
-        public double ConvertToCup(Deciliter dl)
+        public static implicit operator Cup(Deciliter dl)
         {
             double conversionResult = 0.4 * dl;
 

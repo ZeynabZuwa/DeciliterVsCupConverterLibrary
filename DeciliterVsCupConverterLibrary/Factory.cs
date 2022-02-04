@@ -8,7 +8,7 @@ namespace DeciliterVsCupConverterLibrary
 {
     public class Factory
     {
-        public IMeasurment GetMeasurment(string mesasrumentName)
+        public IMeasurment GetMeasurment(string mesasrumentName, double amount=0)
         {
             switch (mesasrumentName)
             {
