@@ -32,5 +32,10 @@ namespace DeciliterVsCupConverterLibrary
             Deciliter temp = new Deciliter(conversionResult);
             return temp;
         }
+
+        public override string ToString()
+        {
+            return Dl + " Deciliter";
+        }
     }
 }

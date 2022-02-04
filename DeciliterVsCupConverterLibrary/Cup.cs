@@ -20,7 +20,7 @@ namespace DeciliterVsCupConverterLibrary
             return new Cup(cup);
         }
 
-        public static implicit operator Double(Cup cup)
+        public static implicit operator double(Cup cup)
         {
             return cup.cup;
         }
@@ -31,6 +31,11 @@ namespace DeciliterVsCupConverterLibrary
 
             Cup temp = new Cup(conversionResult);
             return temp;
+        }
+
+        public override string ToString()
+        {
+            return cup + " Cup" ;
         }
 
     }
